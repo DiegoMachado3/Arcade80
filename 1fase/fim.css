@@ -1,0 +1,101 @@
+@font-face{
+    font-family: Arcade-Regular;
+    src: url(Arcade-Regular.otf);
+}
+
+body{
+    background-color: black;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    padding-bottom: 10px ;
+    border-bottom: 5px solid;
+    color: rgb(165, 71, 243);
+}
+
+.Tela{
+    margin-top: 130px;
+}
+
+.Gam{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Arcade-Regular;
+}
+
+.Play{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Arcade-Regular;
+}
+
+.Palavras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Yes{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Arcade-Regular;
+    font-size: 30px;
+}
+
+.No{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Arcade-Regular;
+}
+
+#resultado{
+    color: white;
+}
+
+.bot1_over{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background: none;
+}
+
+.bot2_over{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background: none;
+}
+
+#resultado{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: Arcade-Regular;
+    font-size: 20px;
+}

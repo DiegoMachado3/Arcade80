@@ -1,0 +1,22 @@
+body {
+    color: white;
+    margin: 0;
+    background-color: #333;
+    
+    
+  }
+.game{
+  margin-left: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid white;
+  background-image: url(img/galaxy.gif);
+  background-repeat: no-repeat;
+  background-size: 995px;
+  background-position-x: center;
+  width: 990px;
+  
+}
+
+

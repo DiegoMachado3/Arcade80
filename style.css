@@ -1,0 +1,615 @@
+@font-face{
+    font-family: Arcade-Regular;
+    src: url(Arcade-Regular.otf);
+}
+
+.divCad{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+    margin: auto;
+    width: 70%;
+    overflow: auto;
+    color: white;
+}
+
+.but_cadastro{
+    color: bisque;
+    background-color: brown;
+}
+
+.T_cadastro{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.tela{
+    padding: 5rem 3rem;
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;  
+}
+
+input{
+    border-radius: 200px;
+    width:350px;
+}
+
+.email{
+    display:flex; 
+    flex-direction: row;
+    gap: 1px;
+    font-size: 50px;
+    font-family: Arcade-Regular;
+    color: #ff0f00;
+    opacity: 55%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#email_login1{
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    font-family: Arcade-Regular;
+    color: white;
+}
+
+.senha{
+    display:flex; 
+    flex-direction: row;
+    gap: 1px;
+    font-size: 50px;
+    font-family: Arcade-Regular;
+    color: #ff0f00;
+    opacity: 55%;
+    margin-top: 40px;
+    margin-left: 57px;
+}
+
+#senha_login1{
+    background-color: transparent;
+    border: transparent;
+    color: bisque;
+    font-size: 30px;
+    font-family: Arcade-Regular;
+}
+
+.botao{
+    border-radius: 200px;
+    width:70px;
+    height:30px;
+    display:flex; 
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right: 10px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+ .body_login{
+    background-color: black; 
+    background-image: url("image5.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 700px;
+    background-position: center;
+} 
+
+.div_textLogin{
+    display: flex;
+    width: 580px;
+    height: 190px;
+    border: solid 7px #FFD130;
+    justify-content:center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 370px;
+    position: relative;
+    opacity: 55%;
+}
+
+.text_login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 90px;
+    font-family: Arcade-Regular;
+    color: #FF7A00;
+    position: absolute;
+    top: -50px;
+}
+
+.botao{
+    width: 100px;
+    height: 100px;
+    opacity: 55%;
+    background-color: transparent;
+    border: transparent;
+    font-family: Arcade-Regular;
+    color: #a1d808;
+    font-size: 20px;
+}
+
+.elipse_img{
+    display: flex;
+    position: absolute;
+    left: 400px;
+    top: 220px;
+    width: 15px;
+    height: 15px;
+}
+
+.elipse_img2{
+    display: flex;
+    position: absolute;
+    left: 935px;
+    top: 220px;
+    width: 15px;
+    height: 15px;
+}
+
+.elipse_img3{
+    display: flex;
+    position: absolute;
+    left: 400px;
+    top: 370px;
+    width: 15px;
+    height: 15px;
+}
+
+.elipse_img4{
+    display: flex;
+    position: absolute;
+    left: 935px;
+    top: 370px;
+    width: 15px;
+    height: 15px;
+}
+
+.venda_body{
+    /* background-image: url("image1.png"); */
+    /* background-repeat: no-repeat; */
+    
+}
+
+.text_venda{
+    display: flex;
+    position: absolute;
+    left: 560px;
+    top: -30px;
+    font-size: 60px;
+    font-family: Arcade-Regular;
+    color: #FF5C00;
+}
+
+.retangulo1{
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    width: 460px;
+    height: 11px;   
+}
+
+.retangulo2{
+    display: flex;
+    position: absolute;
+    left: 830px;
+    top: 10px;
+    width: 460px;
+    height: 11px;   
+}
+
+.retangulo3{
+    display: flex;
+    position: absolute;
+    left: 120px;
+    top: 65px;
+    width: 400px;
+    height: 11px;   
+}
+
+.retangulo4{
+    display: flex;
+    position: absolute;
+    left: 830px;
+    top: 65px;
+    width: 400px;
+    height: 11px;   
+}
+
+.retangulo5{
+    display: flex;
+    position: absolute;
+    left: 1230px;
+    top: 65px;
+    width: 11px;
+    height: 260px;   
+}
+
+.retangulo6{
+    display: flex;
+    position: absolute;
+    left: 115px;
+    top: 65px;
+    width: 11px;
+    height: 260px;   
+}
+
+.retangulo7{
+    display: flex;
+    position: absolute;
+    left: 1280px;
+    top: 10px;
+    width: 11px;
+    height: 315px;   
+}
+
+.retangulo8{
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    width: 11px;
+    height: 310px;   
+}
+
+.retangulo9{
+    display: flex;
+    position: absolute;
+    left: 1230px;
+    top: 305px;
+    width: 11px;
+    height: 390px;   
+}
+
+.retangulo10{
+    display: flex;
+    position: absolute;
+    left: 115px;
+    top: 305px;
+    width: 11px;
+    height: 390px; 
+}
+
+.retangulo11{
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 355px;
+    width: 11px;
+    height: 390px;
+}
+
+.retangulo12{
+    display: flex;
+    position: absolute;
+    left: 1280px;
+    top: 355px;
+    width: 11px;
+    height: 390px;
+}
+
+.retangulo13{
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 735px;
+    width: 330px;
+    height: 11px;
+}
+
+.retangulo14{
+    display: flex;
+    position: absolute;
+    left: 960px;
+    top: 735px;
+    width: 330px;
+    height: 11px;
+}
+
+.retangulo15{
+    display: flex;
+    position: absolute;
+    left: 510px;
+    top: 735px;
+    width: 330px;
+    height: 11px;
+}
+
+.retangulo16{
+    display: flex;
+    position: absolute;
+    left: 115px;
+    top: 685px;
+    width: 1125px;
+    height: 11px;
+}
+
+.retangulo17{
+    display: flex;
+    position: absolute;
+    left: 165px;
+    top: 135px;
+    width: 295px;
+    height: 11px;
+}
+
+.retangulo18{
+    display: flex;
+    position: absolute;
+    left: 165px;
+    top: 135px;
+    width: 11px;
+    height: 475px;
+}
+
+.retangulo19{
+    display: flex;
+    position: absolute;
+    left: 167px;
+    top: 600px;
+    width: 295px;
+    height: 11px;
+}
+
+.retangulo20{
+    display: flex;
+    position: absolute;
+    left: 455px;
+    top: 135px;
+    width: 11px;
+    height: 475px;
+}
+
+
+/* 
+
+*/
+
+
+.retangulo21{
+    display: flex;
+    position: absolute;
+    left: 525px;
+    top: 135px;
+    width: 295px;
+    height: 11px;
+}
+
+.retangulo22{
+    display: flex;
+    position: absolute;
+    left: 520px;
+    top: 135px;
+    width: 11px;
+    height: 475px;
+}
+
+.retangulo23{
+    display: flex;
+    position: absolute;
+    left: 525px;
+    top: 600px;
+    width: 297px;
+    height: 11px;
+}
+
+.retangulo24{
+    display: flex;
+    position: absolute;
+    left: 815px;
+    top: 135px;
+    width: 11px;
+    height: 475px;
+}
+
+/* 
+
+*/
+
+.retangulo25{
+    display: flex;
+    position: absolute;
+    left: 883px;    
+    top: 135px;
+    width: 295px;
+    height: 11px;
+}
+
+.retangulo26{
+    display: flex;
+    position: absolute;
+    left: 880px;
+    top: 135px;
+    width: 11px;
+    height: 475px;
+}
+
+.retangulo27{
+    display: flex;
+    position: absolute;
+    left: 883px;
+    top: 600px;
+    width: 297px;
+    height: 11px;
+}
+
+.retangulo28{
+    display: flex;
+    position: absolute;
+    left: 1170px;
+    top: 135px;
+    width: 11px;
+    height: 475px;
+}
+
+.text_1real{
+    display: flex;
+    position: absolute;
+    left: 240px;
+    top: 140px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.text_5real{
+    display: flex;
+    position: absolute;
+    left: 600px;
+    top: 140px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.text_10real{
+    display: flex;
+    position: absolute;
+    left: 940px;
+    top: 140px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.retangulo29{
+    display: flex;
+    position: absolute;
+    left: 935px;
+    top: 510px;  
+}
+
+.retangulo30{
+    display: flex;
+    position: absolute;
+    left: 575px;
+    top: 510px;  
+}
+
+.retangulo31{
+    display: flex;
+    position: absolute;
+    left: 215px;
+    top: 510px;  
+}
+
+.ficha3{
+    display: flex;
+    position: absolute;
+    left: 945px;
+    top: 220px;
+    height: 175px;   
+}
+
+.ficha2{
+    display: flex;
+    position: absolute;
+    left: 590px;
+    top: 240px;
+    height: 175px;  
+}
+
+.ficha1{
+    display: flex;
+    position: absolute;
+    left: 230px;
+    top: 235px; 
+    height: 175px;  
+}
+
+.text_compra1{
+    display: flex;
+    position: absolute;
+    left: 975px;
+    top: 510px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.text_compra2{
+    display: flex;
+    position: absolute;
+    left: 615px;
+    top: 510px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.text_compra3{
+    display: flex;
+    position: absolute;
+    left: 253px;
+    top: 510px; 
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.text_quant1{
+    display: flex;
+    position: absolute;
+    left: 270px;
+    top: 330px;
+    color: #FF7C03; 
+    font-size: 100px;
+}
+
+.text_quant2{
+    display: flex;
+    position: absolute;
+    left: 630px;
+    top: 330px;
+    color: #FF7C03; 
+    font-size: 100px;
+}
+
+.text_quant3{
+    display: flex;
+    position: absolute;
+    left: 960px;
+    top: 330px;
+    color: #FF7C03; 
+    font-size: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover{
+    text-decoration: none;
+    padding-bottom: 10px ;
+    border-bottom: 5px solid;
+    
+}
+
+.voltcadastro{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 390px;   
+}
+
+.volt{
+    color: #a1d808;
+    opacity: 80%;
+    font-family: Arcade-Regular;
+    font-size: 15px;
+}

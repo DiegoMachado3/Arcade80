@@ -1,0 +1,91 @@
+.body_perfil{
+    background-color: black;
+}
+
+.titulo{
+    color: #FFB851;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    margin-top: 50px;
+}
+
+.text_rank{
+    color: #FF0000;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    left: 300px;
+}
+
+.text_exit{
+    color: #FF0000;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    left: 950px;
+    top: 70px;
+}
+
+.text_player{
+    color: #00FFFF;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    left: 490px;
+    top: 200px;
+}
+
+.text_email{
+    color: #00FFFF;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    left: 750px;
+    top: 200px;
+}
+
+.text_scores{
+    color: #00FFFF;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    left: 400px;
+    top: 350px;
+}
+
+.text_perfil{
+    color: #00FFFF;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arcade-Regular;
+    left: 750px;
+    top: 350px;
+}
